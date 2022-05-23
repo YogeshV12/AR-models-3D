@@ -1,23 +1,26 @@
 <html>
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 
 
-<body style="height: auto; overflow: hidden; padding: 20px;">
+<body style="height: auto; overflow: hidden; padding: 10px;">
 <meta name="auto_height" content="true">
 <meta name="auto_width" content="true">
 
-<model-viewer style="height: 500px; width: 500px; margin: 0 auto;" 
-              ios-src="./Astronaut.usdz"
+<div class="card" style="height: 96%; width: 96%; margin-top: 2%; margin-left: 2%; margin-right: 2%; margin-bottom: 2%;">
+    <model-viewer style="height: 70%; width: 70%; margin-top: 10%; margin-left: 15%; margin-right: 15%; margin-bottom: 15%;" 
               src="./AirForce.glb"
+              ios-src="./AirForce.usdz"
               alt="A 3D model of an astronaut"
               environment-image="neutral"
               ar
               auto-rotate
               camera-controls></model-viewer>
+</div>
+
 </body>
 
 </html>
