@@ -11,9 +11,6 @@
         text-decoration: none;
         color: white;
     }
-    model-viewer#reveal {
-    --poster-color: transparent;
-  }
 </style>
 </head>
 
@@ -21,28 +18,20 @@
 <body style="height: auto; overflow: hidden; padding: 10px;">
 <meta name="auto_height" content="true">
 <meta name="auto_width" content="true">
+
 <div class="container">
     <div class="row" style="margin-top: 5%;">
-        <div class="col"><h2 class="text-center">Augmented Reality Ad</h2></div>
+        <div class="col"><h2 class="text-center">Banner ad</h2></div>
     </div>
-    <div class="row" style="height: 60%; width: 80%; margin-top: 0%; margin-left: 10%; margin-right: 10%; margin-bottom: 10%;">
-        <model-viewer style="height: 90%; width: 90%; margin-top: 5%; margin-left: auto; margin-right: auto; margin-bottom: 5%;" 
-                    id="reveal"
-                    poster="poster2.jpg"
-                    src="./AirForce.glb"
-                    ios-src="./AirForce.usdz"
-                    alt="A 3D model of an astronaut"
-                    environment-image="neutral"
-                    ar
-                    auto-rotate
-                    camera-controls></model-viewer>
+    
+    <div  style="height: 60%; width: 60%; margin-top: 5%; margin-left: auto; margin-right: auto; margin-bottom: 5%;">
+        <img style="height: 100%; width: 100%; object-fit: contain" src="nike.webp" class="rounded" alt="Cinque Terre">
     </div>
-    <div class="row">
-      <div class="col"><button type="button" class="btn btn-info btn-lg" style="float: left;"><a id="links" href="video.html">&laquo; Back</a></button></div>
-      <div class="col"><button type="button" class="btn btn-success btn-lg" style="float:right" ><a id="links" href="Buddha.html">Next &raquo;</a></button></div>
+    <div class="row" >
+      <div class="col"><button type="button" class="btn btn-info btn-lg" style="float: left;"><a id="links" href="index.html">&laquo; Prev</a></button></div>
+      <div class="col"><button type="button" class="btn btn-success btn-lg" style="float:right" ><a id="links" href="video.html">Next &raquo;</a></button></div>
     </div>
 </div>
-
 </body>
 
 </html>
